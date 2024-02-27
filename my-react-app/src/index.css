@@ -28,3 +28,11 @@
   font-family: Arial, sans-serif;
   color: rgba(0, 0, 0, 0.313);
 }
+
+.button{
+ background-color: darkseagreen;
+ color:white;
+ padding: 10px 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
