@@ -1,38 +1,10 @@
-.card{
-  border: 1px solid balck;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.11);
-  /* padding is between elements and border */
-  padding: 20px;
-  /* margin is for the space outside of the border */
-  margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  display: inline-block;
+.student{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
 }
 
-.card.card-image{
-  max-width: 60%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-.card.card-title{
-  font-family: Arial, sans-serif;
+.student p{
   margin: 0;
-  color: hsla(0, 0%, 0%, 0.219);
-
-}
-
-.card.card-text{
-  font-family: Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.313);
-}
-
-.button{
- background-color: darkseagreen;
- color:white;
- padding: 10px 20px;
- border-radius: 5px;
- cursor: pointer;
 }
