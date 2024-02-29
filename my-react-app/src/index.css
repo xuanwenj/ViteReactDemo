@@ -8,3 +8,23 @@
 .student p{
   margin: 0;
 }
+
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color :yellowgreen;
+  color:aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  margin:0;
+}
+
+.login-prop{
+  font-size: 2.5em;
+  background-color :darkred;
+  color:aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  margin:0;
+}
+

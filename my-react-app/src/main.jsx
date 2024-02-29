@@ -13,6 +13,7 @@ import './index.css'
 // for debugging
 // defaultprops
 
+//conditional rendering (show hide or change components)
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
