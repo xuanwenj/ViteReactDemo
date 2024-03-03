@@ -31,7 +31,27 @@ function App() {
 
        
     {/* </> */}
-    return(<List/>);
+
+    const fruits = [{id: 1, name:"apple", calories: 95}, 
+    {id: 2, name:"organe", calories:45 },
+    {id: 3, name:"coconut", calories:159 },
+    {id: 4, name:"banana", calories:105 },
+    {id: 5, name:"pineapple",calories:37 }];
+
+    const vege = [{id: 6, name:"potato", calories: 95}, 
+    {id: 7, name:"tomato", calories:45 },
+    {id: 8, name:"carrige", calories:159 },
+    {id: 9, name:"celery", calories:105 },
+    {id: 10, name:"corn",calories:37 }];
+
+    return(<>
+    {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
+    {vege.length > 0 ?  <List items={vege} category="vege"/> : null}
+  
+    </>
+   
+    
+    );
 
     
   // )

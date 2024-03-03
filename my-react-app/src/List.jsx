@@ -1,10 +1,7 @@
-
-function List(){
-    const fruits = [{id: 1, name:"apple", calories: 95}, 
-                    {id: 2, name:"organe", calories:45 },
-                    {id: 3, name:"coconut", calories:159 },
-                    {id: 4, name:"banana", calories:105 },
-                    {id: 5, name:"pineapple",calories:37 }];
+//import PropTypes from './prop-types'
+import PropTypes from 'prop-types'
+function List(props){
+ 
 //sort
     //fruits.sort((a,b) => a.name.localeCompare(b.name));//alphabetical
     //fruits.sort((a,b) => b.name.localeCompare(a.name));//reverse alphabetical
@@ -16,10 +13,36 @@ function List(){
    //const highCalFruits = fruits.filter(fruit => fruit.calories >= 100);
 
     
-    const listItems = highCalFruits.map(fruit => <li key={fruit.id}>
-                                            {fruit.name}: &nbsp;
-                                            <b>{fruit.calories}</b></li>)
-    return(<ul>{listItems}</ul>);
+    // const listItems = highCalFruits.map(fruit => <li key={fruit.id}>
+    //                                         {fruit.name}: &nbsp;
+    //                                         <b>{fruit.calories}</b></li>)
+    // return(<ul>{listItems}</ul>);
+
+    const itemList = props.items;
+    const category = props.category;
+    const listItems = itemList.map(item => <li key={item.id}>
+                                             {item.name}: &nbsp;
+                                             <b>{item.calories}</b></li>)
+   //return(<ul>{listItems}</ul>);
+   return(
+    <>
+    <h3 className="list-category">{category}</h3>
+    <ul className="list-items">{listItems}</ul>
+    </>
+   );
+}
+
+List.defaultProps ={
+    category: "Category",
+    items: [],
+}
+List.propTypes ={
+    categroy: PropTypes.string,
+    items:PropTypes.arrayOf(PropTypes.shape({   id: PropTypes.number, 
+                                                name: PropTypes.string, 
+                                                calories: PropTypes.number
+
+    }))
 }
 
 export default List
