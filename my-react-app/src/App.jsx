@@ -5,6 +5,7 @@ import Card from './Card.jsx'
 import Button from './Button.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
+import List from './List.jsx'
 
 // propTypes = a mechanism that ensures that the passed value is of 
 // the correct datatype.
@@ -12,8 +13,8 @@ import UserGreeting from './UserGreeting.jsx'
 // for debugging
 // defaultprops
 function App() {
-  return(
-    <>
+  // return(
+    // <>
        {/* <Header/>
        <Button></Button>
        <Food/>
@@ -26,11 +27,14 @@ function App() {
        <Student name="Sandy" age={27} isStudent={true}></Student>
        <Student name="Larry" ></Student> */}
 
-       <UserGreeting isLoggedIn={true}  username="Tim"/>
-    </>
+       {/* <UserGreeting isLoggedIn={true}  username="Tim"/> */}
+
+       
+    {/* </> */}
+    return(<List/>);
 
     
-  )
+  // )
 }
 
 
