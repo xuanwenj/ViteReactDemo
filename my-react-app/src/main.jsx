@@ -24,6 +24,11 @@ import './index.css'
 
 //click event = An interaction when a user clicks ona specific element.
 //              we can respond to clicks by passing a call back to the onclick event handler.
+
+
+// React hook = Special function that allow functional components to use React features without writing class components
+// useStates() = a hoot that allows the creation of a stateful variable and a setter function to update its value in the Virtual DOM.
+                  //[name, setName]
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
