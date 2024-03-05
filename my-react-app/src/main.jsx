@@ -29,6 +29,10 @@ import './index.css'
 // React hook = Special function that allow functional components to use React features without writing class components
 // useStates() = a hoot that allows the creation of a stateful variable and a setter function to update its value in the Virtual DOM.
                   //[name, setName]
+
+// onChange = event handler used primarily with form elemets
+//             ex. <input>, <textarea>, <select>, <radio>
+//             Traggers a functioin every time the value of the input changes                  
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
