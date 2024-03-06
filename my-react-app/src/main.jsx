@@ -33,6 +33,11 @@ import './index.css'
 // onChange = event handler used primarily with form elemets
 //             ex. <input>, <textarea>, <select>, <radio>
 //             Traggers a functioin every time the value of the input changes                  
+
+//Color picker
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
