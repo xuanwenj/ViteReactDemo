@@ -36,6 +36,10 @@ import './index.css'
 
 //Color picker
 
+//updater function = A function passed as an argument to setState() usually
+//                  ex. setYear(arrow function)
+//                  allow for safe updates based on the previous state 
+//                  used with multiple state updates and asynchronous functions
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
