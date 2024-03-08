@@ -1,8 +1,8 @@
 
-import Counter from './Counter.jsx'
+import UpdateStateObject from './UpdateStateObject.jsx'
 
 function App() {
-  return(<Counter/>);
+  return(<UpdateStateObject/>);
 }
 
 
