@@ -1,8 +1,8 @@
 
-import UpdateArray from './UpdateArray.jsx'
+import UpdateArraysObject from './UpdateArraysObject.jsx'
 
 function App() {
-  return(<UpdateArray/>);
+  return(<UpdateArraysObject/>);
 }
 
 

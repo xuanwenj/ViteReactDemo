@@ -41,9 +41,9 @@ import './index.css'
 //                  allow for safe updates based on the previous state 
 //                  used with multiple state updates and asynchronous functions
 
-// update state object
+// update state object 
 
-// update state of array 
+//update more state of array object 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
