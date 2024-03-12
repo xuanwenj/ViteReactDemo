@@ -42,6 +42,8 @@ import './index.css'
 //                  used with multiple state updates and asynchronous functions
 
 // update state object
+
+// update state of array 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
