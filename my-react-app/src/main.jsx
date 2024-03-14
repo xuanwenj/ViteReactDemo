@@ -52,7 +52,10 @@ import './index.css'
 //               This component mounts: when mount a component, that's when you create and pending to the DOM,              
 //               The state of a value changes
 //
-// useEffect(function, [dependencies])
+// useEffect(function, [dependencies]) 
+//          a function that contains the code you'd like to perform,
+//          optionally, an array of dependencies
+
 //
 // 1. useEffect(() => {});                  // Runs after every re-render
 // 2. useEffect(() => {}, []);              // Runs only on mount(represent by using [])
@@ -65,7 +68,7 @@ import './index.css'
 // #4 Fetching Data from an API
 // #5 Clean up when a component unmounts(when you remove a component from the DOM)
 
-
+// set width and height
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

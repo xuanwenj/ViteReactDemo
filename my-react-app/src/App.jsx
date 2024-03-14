@@ -1,8 +1,8 @@
 
-import UseEffect from './UseEffect.jsx'
+import WidthHeight from './WidthHeight.jsx'
 
 function App() {
-  return(<UseEffect/>);
+  return(<WidthHeight/>);
 }
 
 
