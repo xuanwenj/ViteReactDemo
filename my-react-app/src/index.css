@@ -1,120 +1,89 @@
-.student{
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 2em;
-  padding: 10px;
-  border: 1px solid hsla(0, 0%, 50%, 0.8);
+
+body{
+  background-color: #000000fb;
+}
+.to-do-list{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 100px;
+  color: wheat;
 }
 
-.student p{
-  margin: 0;
+h1{
+  font-size: 4rem;
+
 }
-
-
-.welcome-message{
-  font-size: 2.5em;
-  background-color :yellowgreen;
-  color:aliceblue;
-  padding: 10px;
-  border-radius: 5px;
-  margin:0;
-}
-
-.login-prop{
-  font-size: 2.5em;
-  background-color :darkred;
-  color:aliceblue;
-  padding: 10px;
-  border-radius: 5px;
-  margin:0;
-}
-
-.list-category{
-  font-size: 2.5em;
+button{
+  font-size: 1.7rem;
   font-weight: bold;
-  color:darkorchid;
-  margin-bottom: 10px;
-  text-align: center;
-  border: 3px solid;
-  border-radius: 5px;
-  background-color:antiquewhite;
-
-}
-.list-items li{
-  font-size: 2em;
-  list-style:circle;
-  color:aquamarine;
-  text-align: center;
-  margin: 0;
-}
-.list-items li:hover{
-  color: darkgray;
-  cursor: pointer;
-}
-
-.counter-container{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.count-display{
-  font-size: 10em;
-  margin-top: 0;
-  margin-bottom: 50px;
-
-}
-.counter-button{
-  width: 150px;
-  height: 50px;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 0px 5px;
-  background-color: rgb(220, 87, 100);
-  color: whitesmoke;
+  padding: 10px, 20px;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-.counter-button:hover{
-  background-color: rgb(16, 239, 164);
+  transition: background-color 0.5s ease;
+
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+.add-button{
+  background-color: green;
 }
-.color-picker-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.add-button:hover{
+  background-color: yellowgreen;
 }
-h1{
-  margin: 50px;
-  font-size: 3rem;
+
+.delete-button{
+  background-color: rgb(128, 32, 0);
 }
-.color-display{
-  width: 300px;
-  height: 300px;
-  display: flex;
-  justify-content:center;
-  border: 5px solid black;
-  border-radius: 25px;
-  margin-bottom: 25px;
-  transition: 0.25 ease;
+
+.delete-button:hover{
+  background-color: rgb(205, 107, 50);
 }
-.color-display p{
+
+.move-button{
+  background-color: rgb(28, 0, 128);
+}
+
+.move-button:hover{
+  background-color: rgb(50, 146, 205);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(192, 74, 74);
+  border-radius: 5px;
   color: black;
+}
+ol{
+  padding: 0;
+
+}
+li{
   font-size: 2rem;
-  text-align: center;
-
-}
-label{
-  font-size: 1.5rem;
   font-weight: bold;
+  padding: 15px;
+  background-color: rgba(218, 218, 218, 0.804);
   margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
 }
 
-input[type="color"]{
-  width: 75px;
-  height: 50px;
-  padding: 5px;
-  border-radius: 10px;
-  border: 3px solid wheat
+.text{
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%; */
+  flex: 1;
+  color: black;
+  /*flex 1 represents the three items above, the text takes as much as spaces they needs
+  shrink as the web shrink*/
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
 }

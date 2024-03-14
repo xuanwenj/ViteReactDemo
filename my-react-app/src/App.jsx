@@ -1,8 +1,8 @@
 
-import UpdateArraysObject from './UpdateArraysObject.jsx'
+import ToDoList from './ToDoList.jsx'
 
 function App() {
-  return(<UpdateArraysObject/>);
+  return(<ToDoList/>);
 }
 
 
