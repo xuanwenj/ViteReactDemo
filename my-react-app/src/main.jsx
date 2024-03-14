@@ -46,6 +46,26 @@ import './index.css'
 //update more state of array object 
 
 //to do list app
+
+// useEffect() like a side code = React Hook that tells React DO_SOME_CODE_WHEN (pick one):
+//               This component re-renders
+//               This component mounts: when mount a component, that's when you create and pending to the DOM,              
+//               The state of a value changes
+//
+// useEffect(function, [dependencies])
+//
+// 1. useEffect(() => {});                  // Runs after every re-render
+// 2. useEffect(() => {}, []);              // Runs only on mount(represent by using [])
+// 3. useEffect(() => {}, [value]);         // Runs on mount + when value changes(represent by using [value])
+//
+// USES
+// #1 Event Listeners
+// #2 DOM manipulation
+// #3 Subscriptions (real-time updates)
+// #4 Fetching Data from an API
+// #5 Clean up when a component unmounts(when you remove a component from the DOM)
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

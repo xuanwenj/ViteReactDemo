@@ -1,7 +1,4 @@
 
-body{
-  background-color: #000000fb;
-}
 .to-do-list{
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -17,7 +14,7 @@ button{
   font-size: 1.7rem;
   font-weight: bold;
   padding: 10px, 20px;
-  color: white;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
