@@ -1,8 +1,8 @@
 
-import WidthHeight from './WidthHeight.jsx'
+import DigitalClock from './DigitalClock.jsx'
 
 function App() {
-  return(<WidthHeight/>);
+  return(<DigitalClock/>);
 }
 
 

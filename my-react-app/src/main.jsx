@@ -69,6 +69,11 @@ import './index.css'
 // #5 Clean up when a component unmounts(when you remove a component from the DOM)
 
 // set width and height
+
+// create a digital clock 
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

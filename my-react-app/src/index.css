@@ -1,86 +1,29 @@
-
-.to-do-list{
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  margin-top: 100px;
-  color: wheat;
-}
-
-h1{
-  font-size: 4rem;
-
-}
-button{
-  font-size: 1.7rem;
-  font-weight: bold;
-  padding: 10px, 20px;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.5s ease;
-
-}
-
-.add-button{
-  background-color: green;
-}
-
-.add-button:hover{
-  background-color: yellowgreen;
-}
-
-.delete-button{
-  background-color: rgb(128, 32, 0);
-}
-
-.delete-button:hover{
-  background-color: rgb(205, 107, 50);
-}
-
-.move-button{
-  background-color: rgb(28, 0, 128);
-}
-
-.move-button:hover{
-  background-color: rgb(50, 146, 205);
-}
-
-input[type="text"]{
-  font-size: 1.6rem;
-  padding: 10px;
-  border: 2px solid rgb(192, 74, 74);
-  border-radius: 5px;
-  color: black;
-}
-ol{
-  padding: 0;
-
-}
-li{
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 15px;
-  background-color: rgba(218, 218, 218, 0.804);
-  margin-bottom: 10px;
-  border-radius: 5px;
+body{
+  background-image: url(assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  /* set the text horizontally centered */
   display: flex;
+  justify-content: center;
+  /* set the text vertially centered */
+  min-height: 100vh; /*for the viewport height */
   align-items: center;
 
 }
-
-.text{
-  /* flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0%; */
-  flex: 1;
-  color: black;
-  /*flex 1 represents the three items above, the text takes as much as spaces they needs
-  shrink as the web shrink*/
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
 }
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
 
-.delete-button, .move-button{
-  padding: 8px 12px;
-  font-size: 1.4rem;
-  margin-left: 10px;
 }
